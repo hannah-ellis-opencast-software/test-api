@@ -1,5 +1,11 @@
 # Notes
 
+## building an image by hand
+
+Following instructions from [here](https://codefresh.io/docs/docs/integrations/docker-registries/github-container-registry/)
+
+1. `podman build . -t test-api`
+
 ## How to do a curl post request
 
 ```bash
