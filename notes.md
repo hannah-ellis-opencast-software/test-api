@@ -4,7 +4,12 @@
 
 Following instructions from [here](https://codefresh.io/docs/docs/integrations/docker-registries/github-container-registry/)
 
+### Using podman
+
 1. `podman build . -t test-api`
+2. `podman tag test-api ghcr.io/hannah-ellis-opencast-software/test-api:latest`
+3. `podman push ghcr.io/hannah-ellis-opencast-software/test-api:latest`
+
 
 ## How to do a curl post request
 
