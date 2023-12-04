@@ -10,6 +10,11 @@ Following instructions from [here](https://codefresh.io/docs/docs/integrations/d
 2. `podman tag test-api ghcr.io/hannah-ellis-opencast-software/test-api:latest`
 3. `podman push ghcr.io/hannah-ellis-opencast-software/test-api:latest`
 
+alternatively you can just run
+
+``` bash
+sh package-build.sh
+```
 
 ## How to do a curl post request
 

@@ -7,7 +7,7 @@ services:
       - ./database/db:/data/db
       - ./database/config:/data/configdb
   employee:
-    image: ghcr.io/hannahellis4242/test-api/test-api:latest
+    image: ghcr.io/hannah-ellis-opencast-software/test-api:latest
     expose:
       - 5001
     ports:
