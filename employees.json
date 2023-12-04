@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ce07bce4-0a17-4c16-b093-e5cb04f5d6d2",
+    "forename": "Alice",
+    "surname": "Smith",
+    "salary": 50000,
+    "holidayAllowance": 30,
+    "roles": [{ "level": "senior", "title": "developer" }]
+  },
+  {
+    "id": "0b2165e8-a949-4f86-ae3a-fc6b28b726ff",
+    "forename": "Bob",
+    "surname": "Wright",
+    "salary": 60000,
+    "holidayAllowance": 30,
+    "roles": [
+      { "level": "junior", "title": "operations" },
+      { "level": "lead", "title": "tester" }
+    ]
+  }
+]
